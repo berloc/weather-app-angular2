@@ -1,0 +1,177 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background-color: #3498db;
+  padding: 30px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  color: #f1c40f;
+}
+
+.weather-list {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.weather-element {
+  box-shadow: 1px 1px 6px #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 3px;
+  font-size: 12px;
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.temperature {
+  cursor: default;
+}
+
+.info {
+  color: rgba(95, 95, 95, 0.51);
+  font-weight: bold;
+}
+
+
+.weather-search {
+  margin: 20px auto;
+  width: 40%;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+button, input {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+input {
+  padding: 3px 5px;
+  outline: none;
+  width: 50%;
+  margin-right: 20px;
+}
+
+button {
+  background-color: #2ecc71;
+  border: none;
+  padding: 4px 8px;
+  box-shadow: 1px 1px 1px #95a5a6;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+@media screen and (max-width: 768px) {
+  .weather-list {
+    width: 80%;
+  }
+}
+
+
+.col-1 {
+  display: inline-block;
+  width: 40%;
+}
+
+.col-1 h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+.col-2 {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  text-align: right;
+}
+
+.temperature {
+  font-size: 22px;
+}
+
+
+:host {
+  float: left;
+  margin-top: 10px;
+  width: 25%;
+  padding: 10px;
+}
+
+h3 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+button {
+  font-size: 14px;
+  font-family: inherit;
+  background-color: #3498db;
+  box-shadow: 1px 1px 1px #95a5a6;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.profile {
+  position: relative;
+  background-color: #b9d5e8;
+  padding: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.delete {
+  position: absolute;
+  top: 2px;
+  right: 5px;
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.delete:hover {
+  color: red;
+}
+
+.profile:hover {
+  background-color: #3498db;
+}
+
